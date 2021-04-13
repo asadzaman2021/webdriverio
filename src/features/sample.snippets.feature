@@ -2,6 +2,7 @@ Feature: Sample Snippets test
     As a developer
     I should be able to use given text snippets
 
+    @sanity
     Scenario: open URL
         Given the page url is not "http://webdriverjs.christian-bromann.com/"
         And   I open the url "http://webdriverjs.christian-bromann.com/"

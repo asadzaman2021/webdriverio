@@ -5,7 +5,7 @@ Feature: Performing a Google Search
     Because I want to learn more about it
 
     Background:
-        Given I open the url "https://google.com"
+        Given I open the url "/html5/browser_browser_es5/"
 
     Scenario: Searching for unknown term
         When I set "cO8QFWBdl0jJD5AHFOox" to the inputfield "[name=q]"

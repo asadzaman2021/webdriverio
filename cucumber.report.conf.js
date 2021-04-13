@@ -5,7 +5,7 @@ const customData = {
   data: [
     {
       label: 'Project',
-      value: 'Web automation'
+      value: 'MLB automation'
     },
     {
       label: 'Generated on:',
@@ -25,8 +25,8 @@ report.generate({
   displayDuration: true,
   removeFolders: true,
 
-  pageTitle: 'Web Automation Framework',
-  reportName: 'Web Automation Framework',
+  pageTitle: 'Web Automation',
+  reportName: 'Web Automation',
   openReportInBrowser: true,
   pageFooter:
     '<div class="created-by"><p>Powered by &copy; <a href="https://labs42.io" target="_blank">Labs42</a></p></div>',
